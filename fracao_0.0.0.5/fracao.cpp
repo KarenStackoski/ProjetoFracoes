@@ -1,6 +1,6 @@
 /*
 	PROJETO FRAÇÕES (MERCADO PRESO 0.0.0.5)
-	 
+	     
 	Autores: Karen Bialescki Stackoski e Jhulia Fermo Fascin
 	Ultima atualizacao: 24/06/2023
 	Descricao: Sistema para Cadastro e Consulta de produtos no estoque e parcelamento da compra dos produtos
