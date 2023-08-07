@@ -72,7 +72,6 @@ main(){
 						cabecalhoMenuPrincipal();
 						scanf("%i",&opcaoMenu);
 						system("cls");
-						////////
 						
 						switch(opcaoMenu){
 							case 1:
@@ -89,13 +88,13 @@ main(){
 											
 									//fazer lógica para auto implementar o id
 									printf("Nome do Produto: ");
-									scanf("%s",&nomeProduto); //modificado de gets para scanf pois a versao antiga nao aceita gets
+									scanf("%s",&nomeProduto); 
 									printf("Preco: ");
 									scanf("%f",&precoProduto);
 									printf("Quantidade Total: ");
 									scanf("%i",&quantidadeProdutoTotal);
 									printf("Categoria: ");
-									scanf("%s",&categoriaProduto); //modificado de gets para scanf pois a versao antiga nao aceita o gets
+									scanf("%s",&categoriaProduto); 
 									
 									quantidadeProdutoAtual = quantidadeProdutoTotal; //atribuindo o valor atual incial para depois ir descontando conforme os produtos forem saindo de estoque
 									
@@ -116,9 +115,6 @@ main(){
 				
 				    					return 0;
 				    					
-				    					/////////
-									
-									////////
 									break;
 								case 2:
 									//CONSULTAR TODOS OS PRODUTOS
@@ -143,8 +139,6 @@ main(){
 									printf("\n\n\nDigite qualquer tecla para sair: ");
 									fflush(stdin);
 									scanf("%c",&sairBusca);
-									
-									////////
 									break;
 							  	}	
 							    break;
@@ -183,6 +177,7 @@ main(){
 			        	system("cls");
 			    	}
 			    	printf("Encerrando o programa..."); //mensagem ao sair do programa
+			    	printf("\n\n\n\t\t\t=^_^=     Obrigado por utilizar o Mercado Preso!!!\n\n\n");
 		        }
 		     	else {
 					cabecalhoMercadoPreso();
@@ -193,10 +188,7 @@ main(){
 				}
 //			case 2:{
 				
-//				printf("=======================================================================================================================\n");
-//				printf("                                                    MERCADO PRESO\n");
-//				printf("                                                      V 0.0.0.5\n");
-//				printf("=======================================================================================================================\n\n\n");
+//				cabecalhoMercadoPreso();
 //				printf("_____________________________________________________CADASTRO_________________________________________________________\n\n");  
 //				printf("Nome: ");
 //			    scanf("%s",&nome);
