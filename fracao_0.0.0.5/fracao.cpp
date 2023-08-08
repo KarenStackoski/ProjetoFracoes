@@ -51,10 +51,11 @@ main(){
 				
               //Login  -> Só é possível realizar o cadastro utilizando duas strings iguais (user, password)
 			    cabecalhoMercadoPreso();
+			    printf("			Ola! Seja bem-vindo ao Mercado Preso! Faca seu login e aproveite.  (='_'=)\n\n\n\n");
 				printf("________________________________________________________ENTRAR_________________________________________________________\n\n");
-			    printf("Nome de Usuario: ");
+			    printf("	Nome de Usuario: ");
 			    scanf("%s", user);
-		        printf("Senha: ");
+		        printf("	Senha: ");
 	     	    scanf("%s",&password);
 	     	    
 	     	    //Define os valores de entrada
@@ -177,7 +178,7 @@ main(){
 			        	system("cls");
 			    	}
 			    	printf("Encerrando o programa..."); //mensagem ao sair do programa
-			    	printf("\n\n\n\t\t\t=^_^=     Obrigado por utilizar o Mercado Preso!!!\n\n\n");
+			    	printf("\n\n\n\t\t\t\t(=^_^=)    Obrigado por utilizar o Mercado Preso!!!\n\n\n");
 		        }
 		     	else {
 					cabecalhoMercadoPreso();
